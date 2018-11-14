@@ -4,8 +4,8 @@
 
 公式：https://facebook.github.io/react-native/docs/getting-started.html
 
-## ReactNativeの導入
-### 下記実行(Homebrewは入れておいて下さい)
+## ■ReactNativeの導入
+#### 下記実行(Homebrewは事前にインストールをお願いします)
 ```
 brew install node
 brew install watchman

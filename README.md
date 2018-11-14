@@ -1,6 +1,6 @@
 # app_wifi-cafe-search
 
-環境構築手順メモ
+環境構築手順メモ[WIP]
 
 公式：https://facebook.github.io/react-native/docs/getting-started.html
 

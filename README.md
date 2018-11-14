@@ -4,34 +4,40 @@
 
 公式：https://facebook.github.io/react-native/docs/getting-started.html
 
-■ReactNativeの導入
+## ReactNativeの導入
+### 下記実行(Homebrewは入れておいて下さい)
+```
+brew install node
+brew install watchman
+```
 ```
 nvm install 8.3 --reinstall-packages-from=node 
 brew install watchman
 npm install -g react-native-cli
 react-native init wificafesearch
+
 ```
 
 
 
 
 
-■Typescript
+## Typescript
 
 
-■flow
+## flow
 http://tomoima525.hatenablog.com/entry/2017/10/03/141733
 
-■expoの導入
+## expoの導入
 https://tech.maricuru.com/entry/2018/04/09/142341
 https://qiita.com/yutasuzuki/items/046e120eac9b20bed487
 https://qiita.com/YutamaKotaro/items/dac047715896dc11e555
 
 
-■redux
+## redux
 https://qiita.com/clocker/items/331f20c02cc0d01be062
 
 
-■サーバー
+## サーバー
 ・firebase
 https://qiita.com/MeiTen/items/67c97254d2ebeecbf4a2

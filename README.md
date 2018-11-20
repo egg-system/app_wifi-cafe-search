@@ -11,11 +11,12 @@ brew install node
 brew install watchman
 ```
 ```
-nvm install 8.3 --reinstall-packages-from=node 
 brew install watchman
 npm install -g react-native-cli
 react-native init wificafesearch
 
+// nodeのバーションでreact-native initができない場合
+nvm install 8.3 --reinstall-packages-from=node 
 ```
 
 

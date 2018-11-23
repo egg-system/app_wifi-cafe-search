@@ -8,7 +8,7 @@
 ・
 
 ## ReactNativeの導入
-#### ①下記実行
+#### 下記実行
 
 ```
 # yarnインストール
@@ -22,7 +22,6 @@ create-react-native-app　XXXX(任意のアプリ名)
 
 # アプリのフィルダに移動し、シュミレーターを起動
 cd XXX
-
 expo start
 ※ nodeのバーションでreact-native initができない場合
 nvm install 8.3 --reinstall-packages-from=node 

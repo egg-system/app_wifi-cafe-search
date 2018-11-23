@@ -49,3 +49,5 @@ https://qiita.com/clocker/items/331f20c02cc0d01be062
 ## サーバー
 ・firebase
 https://qiita.com/MeiTen/items/67c97254d2ebeecbf4a2
+
+## デバッグ方法

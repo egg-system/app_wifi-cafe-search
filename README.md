@@ -2,38 +2,34 @@
 
 環境構築手順メモ[WIP]
 
-公式：https://facebook.github.io/react-native/docs/getting-started.html
+参考
+・https://facebook.github.io/react-native/docs/getting-started.html(公式)
+・https://mae.chab.in/archives/59673
+・
 
 ## ReactNativeの導入
-#### ■下記実行(Homebrewは事前にインストールをお願いします)
+#### ①下記実行
+
 ```
-#nodeインストール
-brew install node
+# yarnインストール
+npm install -g yarn
 
-#FaceBookの監視ツール
-brew install watchman
+# create-react-native-appコマンドの追加
+yarn global add create-react-native-app
 
-# react nativeコマンドのインストール
-npm install -g react-native-cli
+# ReactNativeプロジェクトを作成したいディレクトリに移動し、create-react-native-appコマンドを叩く
+create-react-native-app　XXXX(任意のアプリ名)
 
-#react nativeアプリの作成
-react-native init XXX(任意のアプリ名)
-
+# アプリのフィルダに移動し、シュミレーターを起動
 cd XXX
 
-# アプリ起動（Androidの場合）
-react-native run-android
-
-# アプリ起動（iOSの場合）
-react-native run-ios
-
+expo start
 ※ nodeのバーションでreact-native initができない場合
 nvm install 8.3 --reinstall-packages-from=node 
+
+# ①でブラウザが表示されたら、QRコードをクリックしてシュミレーター起動
+
 ```
-
-
-
-
 
 ## Typescript
 
@@ -45,7 +41,6 @@ http://tomoima525.hatenablog.com/entry/2017/10/03/141733
 https://tech.maricuru.com/entry/2018/04/09/142341
 https://qiita.com/yutasuzuki/items/046e120eac9b20bed487
 https://qiita.com/YutamaKotaro/items/dac047715896dc11e555
-
 
 ## redux
 https://qiita.com/clocker/items/331f20c02cc0d01be062

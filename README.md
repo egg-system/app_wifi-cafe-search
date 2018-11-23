@@ -27,8 +27,7 @@ expo start
 ※ nodeのバーションでreact-native initができない場合
 nvm install 8.3 --reinstall-packages-from=node 
 
-# ①でブラウザが表示されたら、QRコードをクリックしてシュミレーター起動
-Run on iOS simulator
+# ①でブラウザが表示されたら、[Run on iOS simulator]をクリックしてシュミレーター起動
 
 ```
 

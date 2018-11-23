@@ -7,15 +7,27 @@
 ## ReactNativeの導入
 #### ■下記実行(Homebrewは事前にインストールをお願いします)
 ```
+#nodeインストール
 brew install node
-brew install watchman
-```
-```
-brew install watchman
-npm install -g react-native-cli
-react-native init wificafesearch
 
-// nodeのバーションでreact-native initができない場合
+#FaceBookの監視ツール
+brew install watchman
+
+# react nativeコマンドのインストール
+npm install -g react-native-cli
+
+#react nativeアプリの作成
+react-native init XXX(任意のアプリ名)
+
+cd XXX
+
+# アプリ起動（Androidの場合）
+react-native run-android
+
+# アプリ起動（iOSの場合）
+react-native run-ios
+
+※ nodeのバーションでreact-native initができない場合
 nvm install 8.3 --reinstall-packages-from=node 
 ```
 

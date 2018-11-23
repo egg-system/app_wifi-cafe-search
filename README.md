@@ -3,9 +3,9 @@
 環境構築手順メモ[WIP]
 
 参考
-・https://facebook.github.io/react-native/docs/getting-started.html(公式)
-・https://mae.chab.in/archives/59673
-・
+- https://facebook.github.io/react-native/docs/getting-started.html(公式)
+- https://mae.chab.in/archives/59673
+
 
 ## ReactNativeの導入
 #### 下記実行
@@ -28,6 +28,7 @@ expo start
 nvm install 8.3 --reinstall-packages-from=node 
 
 # ①でブラウザが表示されたら、QRコードをクリックしてシュミレーター起動
+Run on iOS simulator
 
 ```
 

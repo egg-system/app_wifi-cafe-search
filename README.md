@@ -17,9 +17,15 @@ npm install -g yarn
 # create-react-native-appコマンドの追加
 yarn global add create-react-native-app
 
+# TypeScriptインストール
+yarn add global reate-react-native-app typescript
+
 # ReactNativeプロジェクトを作成したいディレクトリに移動し、create-react-native-appコマンドを叩く
 create-react-native-app　XXXX(任意のアプリ名)
 (Choose a template type: blank)
+
+# yarn install
+yarn install
 
 # アプリのフィルダに移動し、シュミレーターを起動
 cd XXXX

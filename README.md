@@ -3,7 +3,7 @@
 環境構築手順メモ[WIP]
 
 参考
-- https://facebook.github.io/react-native/docs/getting-started.html(公式)
+- https://facebook.github.io/react-native/docs/getting-started.html
 - https://mae.chab.in/archives/59673
 
 
